@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER SDS <sds@tre-rn.jus.br>
+MAINTAINER Marcelo Fernandes <persapiens@gmail.com>
 
 # update and upgrade
 RUN apt-get update && \
