@@ -1,4 +1,4 @@
-FROM openjdk:8u171-jre-alpine
+FROM openjdk:8u191-jre-alpine
 
 MAINTAINER Marcelo Fernandes <persapiens@gmail.com>
 
