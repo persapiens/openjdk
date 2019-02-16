@@ -1,9 +1,8 @@
-FROM ubuntu:18.04
+FROM ubuntu:18.10
 MAINTAINER Marcelo Fernandes <persapiens@gmail.com>
 
 # install openjdk
 RUN apt-get update && \
-  apt-get install -qqy apt-utils && \
   apt-get upgrade -qqy --no-install-recommends && \
-  apt-get install -qqy openjdk-8-jre && \
+  apt-get install -qqy openjdk-11-jre && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
