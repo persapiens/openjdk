@@ -1,6 +1,7 @@
-FROM adoptopenjdk/openjdk11:jdk-11.0.3.7-alpine-jre
+FROM alpine:3.10
 
 MAINTAINER Marcelo Fernandes <persapiens@gmail.com>
 
 # add  ttf-dejavu, procps packages
-RUN apk add --no-cache --update ttf-dejavu procps
+RUN apk add --no-cache --update ttf-dejavu procps \
+  && apk add --no-cache openjdk11-jre
