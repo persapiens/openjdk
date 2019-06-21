@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:jdk-8u212-b04-alpine
+FROM adoptopenjdk/openjdk8:jdk8u212-b04-alpine
 
 MAINTAINER Marcelo Fernandes <persapiens@gmail.com>
 
