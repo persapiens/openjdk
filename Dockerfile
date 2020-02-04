@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:jdk-11.0.2.9-alpine-slim
+FROM adoptopenjdk/openjdk11:jdk-11.0.6_10-alpine-slim
 
 MAINTAINER Marcelo Fernandes <persapiens@gmail.com>
 
