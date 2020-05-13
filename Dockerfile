@@ -1,6 +1,6 @@
 FROM alpine:3.11
 
-MAINTAINER Marcelo Fernandes <persapiens@gmail.com>
+LABEL MAINTAINER="Marcelo Fernandes <persapiens@gmail.com>"
 
 # add ttf-dejavu fonts
 # add procps ps replacement
