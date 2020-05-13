@@ -1,5 +1,6 @@
-FROM ubuntu:18.04
-MAINTAINER Marcelo Fernandes <persapiens@gmail.com>
+FROM ubuntu:20.04
+
+LABEL MAINTAINER="Marcelo Fernandes <persapiens@gmail.com>"
 
 RUN apt-get update && \
   apt-get upgrade -qqy --no-install-recommends && \
