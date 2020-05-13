@@ -1,5 +1,6 @@
 FROM ubuntu:20.04
-MAINTAINER Marcelo Fernandes <persapiens@gmail.com>
+
+LABEL MAINTAINER="Marcelo Fernandes <persapiens@gmail.com>"
 
 # install openjdk
 RUN apt-get update && \
